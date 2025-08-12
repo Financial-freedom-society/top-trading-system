@@ -51,6 +51,77 @@ The NautilusTrader codebase is actually both a framework for composing trading
 
 ![Architecture](https://github.com/nautechsystems/nautilus_trader/blob/develop/assets/architecture-overview.png?raw=true "architecture")
 
+```mermaid
+flowchart TB
+    subgraph DataClients
+        DC1[DataClient]
+        DC2[DataClient]
+    end
+
+    subgraph ExecutionClients
+        EC1[ExecutionClient]
+        EC2[ExecutionClient]
+    end
+
+    subgraph Portfolio
+        P[Portfolio<br/>• Positions<br/>• Net Positions<br/>• Margin<br/>• Open Value]
+    end
+
+    subgraph DataEngine
+        DE[DataEngine<br/>• Subscriptions<br/>• Requests<br/>• Responses]
+    end
+
+    subgraph ExecutionEngine
+        EE[ExecutionEngine<br/>• Commands<br/>• Events]
+    end
+
+    subgraph RiskEngine
+        RE[RiskEngine<br/>• Commands<br/>• Events]
+    end
+
+    subgraph Trader
+        subgraph TraderAccounts
+            A1[Account]
+            A2[Account]
+        end
+        subgraph TraderStrategies
+            TS1[TradingStrategy]
+            TS2[TradingStrategy]
+            TS3[TradingStrategy]
+        end
+    end
+
+    subgraph MessageBus
+        MB[Message Bus]
+    end
+
+    subgraph Cache
+        C[Cache<br/>• Instruments<br/>• Market Data<br/>• Orders<br/>• Positions]
+    end
+
+    subgraph CacheDatabase
+        CD[CacheDatabase<br/>Redis]
+    end
+
+    %% Connections
+    DC1 --> DE
+    DC2 --> DE
+    DE --> MB
+    DE --> C
+
+    EC1 --> EE
+    EC2 --> EE
+
+    EE --> RE
+    RE --> MB
+    MB --> Trader
+
+    Trader --> P
+    Trader --> MB
+
+    MB --> C
+    C --> CD
+```
 ### Core Components
 
 The platform is built around several key components that work together to provide a comprehensive trading system:

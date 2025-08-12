@@ -1,0 +1,305 @@
+{
+  "metadata": {
+    "total_files": 44,
+    "created_date": "2025-01-12",
+    "purpose": "Documentation file tracking for Claude Code tasks",
+    "categories": ["api_reference", "concepts", "developer_guide", "dev_templates", "getting_started", "integrations", "tutorials"]
+  },
+  "files": [
+    {
+      "id": "start_001",
+      "filename": "docs/getting_started/index.md",
+      "category": "getting_started",
+      "type": "markdown",
+      "status": "processed"
+    },
+    {
+      "id": "start_002",
+      "filename": "docs/getting_started/quickstart.md",
+      "category": "getting_started",
+      "type": "markdown",
+      "status": "processed"
+    },
+    {
+      "id": "concept_001",
+      "filename": "docs/concepts/index.md",
+      "category": "concepts",
+      "type": "markdown",
+      "status": "processed"
+    },
+    {
+      "id": "concept_002",
+      "filename": "docs/concepts/overview.md",
+      "category": "concepts",
+      "type": "markdown",
+      "status": "processed"
+    },
+    {
+      "id": "concept_003",
+      "filename": "docs/concepts/architecture.md",
+      "category": "concepts",
+      "type": "markdown",
+      "status": "processed"
+    },
+    {
+      "id": "concept_004",
+      "filename": "docs/concepts/orders.md",
+      "category": "concepts",
+      "type": "markdown",
+      "status": "processed"
+    },
+    {
+      "id": "dev_001",
+      "filename": "docs/developer_guide/index.md",
+      "category": "developer_guide",
+      "type": "markdown",
+      "status": "processed"
+    },
+    {
+      "id": "dev_002",
+      "filename": "docs/developer_guide/environment_setup.md",
+      "category": "developer_guide",
+      "type": "markdown",
+      "status": "processed"
+    },
+    {
+      "id": "dev_003",
+      "filename": "docs/developer_guide/coding_standards.md",
+      "category": "developer_guide",
+      "type": "markdown",
+      "status": "processed"
+    },
+    {
+      "id": "dev_004",
+      "filename": "docs/developer_guide/rust.md",
+      "category": "developer_guide",
+      "type": "markdown",
+      "status": "processed"
+    },
+    {
+      "id": "dev_005",
+      "filename": "docs/developer_guide/cython.md",
+      "category": "developer_guide",
+      "type": "markdown",
+      "status": "processed"
+    },
+    {
+      "id": "dev_006",
+      "filename": "docs/developer_guide/testing.md",
+      "category": "developer_guide",
+      "type": "markdown",
+      "status": "processed"
+    },
+    {
+      "id": "dev_007",
+      "filename": "docs/developer_guide/packaged_data.md",
+      "category": "developer_guide",
+      "type": "markdown",
+      "status": "processed"
+    },
+    {
+      "id": "api_001",
+      "filename": "docs/api_reference/index.md",
+      "category": "api_reference",
+      "type": "markdown",
+      "status": "processed"
+    },
+    {
+      "id": "api_002",
+      "filename": "docs/api_reference/model/index.md",
+      "category": "api_reference",
+      "type": "markdown",
+      "status": "processed"
+    },
+    {
+      "id": "api_003",
+      "filename": "docs/api_reference/model/instruments.md",
+      "category": "api_reference",
+      "type": "markdown",
+      "status": "processed"
+    },
+    {
+      "id": "api_004",
+      "filename": "docs/api_reference/model/orders.md",
+      "category": "api_reference",
+      "type": "markdown",
+      "status": "processed"
+    },
+    {
+      "id": "api_005",
+      "filename": "docs/api_reference/accounting.md",
+      "category": "api_reference",
+      "type": "markdown",
+      "status": "processed"
+    },
+    {
+      "id": "api_006",
+      "filename": "docs/api_reference/cache.md",
+      "category": "api_reference",
+      "type": "markdown",
+      "status": "processed"
+    },
+    {
+      "id": "api_007",
+      "filename": "docs/api_reference/trading.md",
+      "category": "api_reference",
+      "type": "markdown",
+      "status": "processed"
+    },
+    {
+      "id": "api_008",
+      "filename": "docs/api_reference/analysis.md",
+      "category": "api_reference",
+      "type": "markdown",
+      "status": "processed"
+    },
+    {
+      "id": "api_009",
+      "filename": "docs/api_reference/persistence.md",
+      "category": "api_reference",
+      "type": "markdown",
+      "status": "processed"
+    },
+    {
+      "id": "api_010",
+      "filename": "docs/api_reference/conf.py",
+      "category": "api_reference",
+      "type": "python",
+      "status": "processed"
+    },
+    {
+      "id": "api_011",
+      "filename": "docs/api_reference/execution.md",
+      "category": "api_reference",
+      "type": "markdown",
+      "status": "processed"
+    },
+    {
+      "id": "api_012",
+      "filename": "docs/api_reference/indicators.md",
+      "category": "api_reference",
+      "type": "markdown",
+      "status": "processed"
+    },
+    {
+      "id": "api_013",
+      "filename": "docs/api_reference/live.md",
+      "category": "api_reference",
+      "type": "markdown",
+      "status": "processed"
+    },
+    {
+      "id": "api_014",
+      "filename": "docs/api_reference/data.md",
+      "category": "api_reference",
+      "type": "markdown",
+      "status": "processed"
+    },
+    {
+      "id": "api_015",
+      "filename": "docs/api_reference/adapters/index.md",
+      "category": "api_reference",
+      "type": "markdown",
+      "status": "processed"
+    },
+    {
+      "id": "api_016",
+      "filename": "docs/api_reference/adapters/betfair.md",
+      "category": "api_reference",
+      "type": "markdown",
+      "status": "processed"
+    },
+    {
+      "id": "api_017",
+      "filename": "docs/api_reference/adapters/binance.md",
+      "category": "api_reference",
+      "type": "markdown",
+      "status": "processed"
+    },
+    {
+      "id": "api_018",
+      "filename": "docs/api_reference/adapters/bybit.md",
+      "category": "api_reference",
+      "type": "markdown",
+      "status": "processed"
+    },
+    {
+      "id": "api_019",
+      "filename": "docs/api_reference/adapters/coinbase_intx.md",
+      "category": "api_reference",
+      "type": "markdown",
+      "status": "processed"
+    },
+    {
+      "id": "api_020",
+      "filename": "docs/api_reference/adapters/databento.md",
+      "category": "api_reference",
+      "type": "markdown",
+      "status": "processed"
+    },
+    {
+      "id": "api_021",
+      "filename": "docs/api_reference/adapters/dydx.md",
+      "category": "api_reference",
+      "type": "markdown",
+      "status": "processed"
+    },
+    {
+      "id": "api_022",
+      "filename": "docs/api_reference/adapters/interactive_brokers.md",
+      "category": "api_reference",
+      "type": "markdown",
+      "status": "processed"
+    },
+    {
+      "id": "api_023",
+      "filename": "docs/api_reference/adapters/okx.md",
+      "category": "api_reference",
+      "type": "markdown",
+      "status": "processed"
+    },
+    {
+      "id": "integration_001",
+      "filename": "docs/integrations/hyperliquid.md",
+      "category": "integrations",
+      "type": "markdown",
+      "status": "processed"
+    },
+    {
+      "id": "integration_002",
+      "filename": "docs/integrations/betfair.md",
+      "category": "integrations",
+      "type": "markdown",
+      "status": "processed"
+    },
+    {
+      "id": "tutorial_001",
+      "filename": "docs/tutorials/index.md",
+      "category": "tutorials",
+      "type": "markdown",
+      "status": "processed"
+    },
+    {
+      "id": "template_001",
+      "filename": "docs/dev_templates/api_reference/conf.py",
+      "category": "dev_templates",
+      "type": "python",
+      "status": "processed"
+    }
+  ],
+  "status_summary": {
+    "processed": 40,
+    "unprocessed": 0,
+    "total": 40
+  },
+  "category_counts": {
+    "api_reference": 20,
+    "concepts": 4,
+    "developer_guide": 7,
+    "dev_templates": 1,
+    "getting_started": 2,
+    "integrations": 2,
+    "tutorials": 1,
+    "root": 0
+  }
+}
