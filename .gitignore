@@ -71,7 +71,6 @@ env/
 .cursorignore
 .DS_Store
 .null-ls*
-CLAUDE.md
 CODEX.md
 GEMINI.md
 PERF.JSON
