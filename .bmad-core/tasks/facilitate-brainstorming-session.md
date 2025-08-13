@@ -7,6 +7,10 @@ template: ".bmad-core/templates/brainstorming-output-tmpl.yaml"
 
 Facilitate interactive brainstorming sessions with users. Be creative and adaptive in applying techniques.
 
+## 🔒 UNBREAKABLE DOCUMENTATION-FIRST RULE
+
+**CRITICAL**: For brainstorming sessions involving technical topics, codebase analysis, system architecture, or any software development subjects, you MUST ALWAYS start by reading docs/index.md to identify relevant documentation, navigate to specific documentation sections, and understand the existing system before facilitating the brainstorming process. This ensures all ideas are grounded in actual system capabilities and constraints.
+
 ## Process
 
 ### Step 1: Session Setup

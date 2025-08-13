@@ -1,5 +1,9 @@
 # review-story
 
+## 🔒 UNBREAKABLE DOCUMENTATION-FIRST RULE
+
+**CRITICAL**: Before reviewing stories that involve codebase changes or technical implementation, you MUST ALWAYS start with docs/index.md to identify relevant documentation, navigate to specific documentation sections, understand existing system patterns and constraints, and validate that story requirements align with documented system architecture and capabilities.
+
 When a developer agent marks a story as "Ready for Review", perform a comprehensive senior developer code review with the ability to refactor and improve code directly.
 
 ## Prerequisites

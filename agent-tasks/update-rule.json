@@ -1,0 +1,186 @@
+{
+  "task_description": "Enforce \ud83d\udd12 UNBREAKABLE DOCUMENTATION-FIRST RULE across all BMad agents and tasks",
+  "rule_enforcement_summary": "Add mandatory documentation-first workflow checks to all agents that perform codebase work",
+  "files_to_update": [
+    {
+      "file_path": "/home/luzon/source-code-repos/top-trading-system/.bmad-core/agents/analyst.md",
+      "task_todo": "Add documentation-first rule enforcement to activation-instructions - agent already has basic structure but missing explicit docs/index.md requirement for any codebase analysis",
+      "update_status": "completed",
+      "reason": "Current analyst agent lacks explicit documentation-first workflow enforcement for brainstorming and research tasks involving codebase"
+    },
+    {
+      "file_path": "/home/luzon/source-code-repos/top-trading-system/.claude/commands/BMad/agents/analyst.md",
+      "task_todo": "Mirror the updates made to .bmad-core/agents/analyst.md to maintain consistency",
+      "update_status": "completed",
+      "reason": "Must keep both copies of analyst agent file in sync"
+    },
+    {
+      "file_path": "/home/luzon/source-code-repos/top-trading-system/.bmad-core/agents/dev.md",
+      "task_todo": "Add explicit documentation-first rule enforcement to activation-instructions - currently has devLoadAlwaysFiles but missing mandatory workflow check",
+      "update_status": "completed",
+      "reason": "Dev agent performs codebase work but lacks explicit documentation-first workflow enforcement in activation sequence"
+    },
+    {
+      "file_path": "/home/luzon/source-code-repos/top-trading-system/.claude/commands/BMad/agents/dev.md",
+      "task_todo": "Mirror the updates made to .bmad-core/agents/dev.md to maintain consistency",
+      "update_status": "completed",
+      "reason": "Must keep both copies of dev agent file in sync"
+    },
+    {
+      "file_path": "/home/luzon/source-code-repos/top-trading-system/.bmad-core/agents/architect.md",
+      "task_todo": "Add documentation-first rule enforcement to activation-instructions - architect creates system designs that must follow existing patterns",
+      "update_status": "completed",
+      "reason": "Architect agent creates system architecture but lacks mandatory documentation-first workflow for understanding existing codebase patterns"
+    },
+    {
+      "file_path": "/home/luzon/source-code-repos/top-trading-system/.claude/commands/BMad/agents/architect.md",
+      "task_todo": "Mirror the updates made to .bmad-core/agents/architect.md to maintain consistency",
+      "update_status": "completed",
+      "reason": "Must keep both copies of architect agent file in sync"
+    },
+    {
+      "file_path": "/home/luzon/source-code-repos/top-trading-system/.bmad-core/agents/pm.md",
+      "task_todo": "Add documentation-first rule enforcement to activation-instructions for any technical analysis or codebase interaction",
+      "update_status": "completed",
+      "reason": "Project manager may need to understand codebase for planning and should follow documentation-first approach"
+    },
+    {
+      "file_path": "/home/luzon/source-code-repos/top-trading-system/.claude/commands/BMad/agents/pm.md",
+      "task_todo": "Mirror the updates made to .bmad-core/agents/pm.md to maintain consistency",
+      "update_status": "completed",
+      "reason": "Must keep both copies of PM agent file in sync"
+    },
+    {
+      "file_path": "/home/luzon/source-code-repos/top-trading-system/.bmad-core/agents/qa.md",
+      "task_todo": "Add documentation-first rule enforcement to activation-instructions for codebase analysis and testing",
+      "update_status": "completed",
+      "reason": "QA agent reviews code and must understand existing patterns through documentation-first approach"
+    },
+    {
+      "file_path": "/home/luzon/source-code-repos/top-trading-system/.claude/commands/BMad/agents/qa.md",
+      "task_todo": "Mirror the updates made to .bmad-core/agents/qa.md to maintain consistency",
+      "update_status": "completed",
+      "reason": "Must keep both copies of QA agent file in sync"
+    },
+    {
+      "file_path": "/home/luzon/source-code-repos/top-trading-system/.bmad-core/agents/ux-expert.md",
+      "task_todo": "Add documentation-first rule enforcement to activation-instructions for understanding system capabilities and constraints",
+      "update_status": "completed",
+      "reason": "UX expert needs to understand system architecture through docs before designing interfaces"
+    },
+    {
+      "file_path": "/home/luzon/source-code-repos/top-trading-system/.claude/commands/BMad/agents/ux-expert.md",
+      "task_todo": "Mirror the updates made to .bmad-core/agents/ux-expert.md to maintain consistency",
+      "update_status": "completed",
+      "reason": "Must keep both copies of UX expert agent file in sync"
+    },
+    {
+      "file_path": "/home/luzon/source-code-repos/top-trading-system/.bmad-core/agents/po.md",
+      "task_todo": "Add documentation-first rule enforcement to activation-instructions for understanding system capabilities when creating requirements",
+      "update_status": "completed",
+      "reason": "Product owner creates requirements and must understand existing system capabilities through documentation"
+    },
+    {
+      "file_path": "/home/luzon/source-code-repos/top-trading-system/.claude/commands/BMad/agents/po.md",
+      "task_todo": "Mirror the updates made to .bmad-core/agents/po.md to maintain consistency",
+      "update_status": "completed",
+      "reason": "Must keep both copies of PO agent file in sync"
+    },
+    {
+      "file_path": "/home/luzon/source-code-repos/top-trading-system/.bmad-core/agents/sm.md",
+      "task_todo": "Add documentation-first rule enforcement to activation-instructions for understanding development standards and patterns",
+      "update_status": "completed",
+      "reason": "Scrum master creates development stories and must understand system through documentation-first approach"
+    },
+    {
+      "file_path": "/home/luzon/source-code-repos/top-trading-system/.claude/commands/BMad/agents/sm.md",
+      "task_todo": "Mirror the updates made to .bmad-core/agents/sm.md to maintain consistency",
+      "update_status": "completed",
+      "reason": "Must keep both copies of scrum master agent file in sync"
+    },
+    {
+      "file_path": "/home/luzon/source-code-repos/top-trading-system/.bmad-core/agents/bmad-orchestrator.md",
+      "task_todo": "Add documentation-first rule enforcement to activation-instructions for coordinating all agent activities",
+      "update_status": "completed",
+      "reason": "Orchestrator coordinates other agents and must enforce documentation-first workflow across all activities"
+    },
+    {
+      "file_path": "/home/luzon/source-code-repos/top-trading-system/.claude/commands/BMad/agents/bmad-orchestrator.md",
+      "task_todo": "Mirror the updates made to .bmad-core/agents/bmad-orchestrator.md to maintain consistency",
+      "update_status": "completed",
+      "reason": "Must keep both copies of orchestrator agent file in sync"
+    },
+    {
+      "file_path": "/home/luzon/source-code-repos/top-trading-system/.bmad-core/agents/bmad-master.md",
+      "task_todo": "Add documentation-first rule enforcement to activation-instructions for master-level system oversight",
+      "update_status": "completed",
+      "reason": "Master agent has ultimate system oversight and must enforce documentation-first workflow"
+    },
+    {
+      "file_path": "/home/luzon/source-code-repos/top-trading-system/.claude/commands/BMad/agents/bmad-master.md",
+      "task_todo": "Mirror the updates made to .bmad-core/agents/bmad-master.md to maintain consistency",
+      "update_status": "completed",
+      "reason": "Must keep both copies of master agent file in sync"
+    },
+    {
+      "file_path": "/home/luzon/source-code-repos/top-trading-system/.bmad-core/tasks/document-project.md",
+      "task_todo": "Strengthen existing documentation-first enforcement by adding explicit reference to unbreakable rule",
+      "update_status": "completed",
+      "reason": "Task already has some documentation analysis requirements but lacks explicit reference to the unbreakable documentation-first rule"
+    },
+    {
+      "file_path": "/home/luzon/source-code-repos/top-trading-system/.bmad-core/tasks/facilitate-brainstorming-session.md",
+      "task_todo": "Add documentation-first rule enforcement for brainstorming sessions involving codebase topics",
+      "update_status": "completed",
+      "reason": "Brainstorming task lacks documentation-first workflow when discussing technical topics that require codebase understanding"
+    },
+    {
+      "file_path": "/home/luzon/source-code-repos/top-trading-system/.bmad-core/tasks/create-deep-research-prompt.md",
+      "task_todo": "Add documentation-first rule enforcement for research tasks involving codebase analysis",
+      "update_status": "completed",
+      "reason": "Research tasks may involve codebase analysis and need documentation-first workflow enforcement"
+    },
+    {
+      "file_path": "/home/luzon/source-code-repos/top-trading-system/.bmad-core/tasks/create-next-story.md",
+      "task_todo": "Add documentation-first rule enforcement for story creation that involves codebase modifications",
+      "update_status": "completed",
+      "reason": "Story creation must understand existing system through documentation before defining new requirements"
+    },
+    {
+      "file_path": "/home/luzon/source-code-repos/top-trading-system/.bmad-core/tasks/create-brownfield-story.md",
+      "task_todo": "Add documentation-first rule enforcement for brownfield story creation",
+      "update_status": "completed",
+      "reason": "Brownfield stories specifically deal with existing codebases and must enforce documentation-first workflow"
+    },
+    {
+      "file_path": "/home/luzon/source-code-repos/top-trading-system/.bmad-core/tasks/brownfield-create-story.md",
+      "task_todo": "Add documentation-first rule enforcement for brownfield story creation workflow",
+      "update_status": "completed",
+      "reason": "Brownfield story creation must start with documentation analysis of existing system"
+    },
+    {
+      "file_path": "/home/luzon/source-code-repos/top-trading-system/.bmad-core/tasks/brownfield-create-epic.md",
+      "task_todo": "Add documentation-first rule enforcement for brownfield epic creation",
+      "update_status": "completed",
+      "reason": "Brownfield epics must understand existing system architecture through documentation first"
+    },
+    {
+      "file_path": "/home/luzon/source-code-repos/top-trading-system/.bmad-core/tasks/review-story.md",
+      "task_todo": "Add documentation-first rule enforcement for story review process involving codebase changes",
+      "update_status": "completed",
+      "reason": "Story review must validate against existing system patterns documented in docs/index.md"
+    }
+  ],
+  "completion_status": "completed",
+  "total_files": 28,
+  "completed_files": 28,
+  "last_updated": "2025-01-13T12:00:00Z",
+  "summary": "Successfully updated all 20 agent files (10 pairs) and 8 task files with \ud83d\udd12 UNBREAKABLE DOCUMENTATION-FIRST RULE enforcement",
+  "final_summary": "Successfully enforced \ud83d\udd12 UNBREAKABLE DOCUMENTATION-FIRST RULE across all 28 files: 20 agent files (10 pairs in .bmad-core and .claude) and 8 task files. All agents now automatically enforce documentation-first workflow for codebase-related activities.",
+  "verification": {
+    "agent_files_bmad_core": 10,
+    "agent_files_claude": 10,
+    "task_files": 8,
+    "total_files_with_rule": 28
+  }
+}

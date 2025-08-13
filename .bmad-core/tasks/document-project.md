@@ -1,5 +1,9 @@
 # Document an Existing Project
 
+## 🔒 UNBREAKABLE DOCUMENTATION-FIRST RULE
+
+**CRITICAL**: This task enforces the 🔒 UNBREAKABLE DOCUMENTATION-FIRST RULE by systematically analyzing existing documentation before creating new documentation, ensuring comprehensive understanding of the current system state.
+
 ## Purpose
 
 Generate comprehensive documentation for existing projects optimized for AI development agents. This task creates structured reference materials that enable AI agents to understand project context, conventions, and patterns for effective contribution to any codebase.

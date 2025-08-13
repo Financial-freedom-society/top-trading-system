@@ -1,5 +1,9 @@
 # Create Brownfield Story Task
 
+## 🔒 UNBREAKABLE DOCUMENTATION-FIRST RULE
+
+**CRITICAL**: Before creating brownfield development stories, you MUST ALWAYS start with docs/index.md to identify relevant documentation, navigate to specific documentation sections, understand existing system architecture and implementation patterns, and apply that knowledge to create stories that respect existing system constraints and leverage established patterns.
+
 ## Purpose
 
 Create a single user story for very small brownfield enhancements that can be completed in one focused development session. This task is for minimal additions or bug fixes that require existing system integration awareness.

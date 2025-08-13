@@ -1,5 +1,9 @@
 # Create Deep Research Prompt Task
 
+## 🔒 UNBREAKABLE DOCUMENTATION-FIRST RULE
+
+**CRITICAL**: Before creating research prompts involving codebase analysis, system architecture, technical implementation, or software development topics, you MUST ALWAYS start with docs/index.md to identify relevant documentation, navigate to specific documentation sections, process and understand the existing system, and apply that knowledge to create informed research prompts that are grounded in actual system capabilities and patterns.
+
 This task helps create comprehensive research prompts for various types of deep analysis. It can process inputs from brainstorming sessions, project briefs, market research, or specific research questions to generate targeted prompts for deeper investigation.
 
 ## Purpose
