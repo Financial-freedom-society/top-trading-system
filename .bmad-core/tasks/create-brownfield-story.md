@@ -1,12 +1,12 @@
 # Create Brownfield Story Task
 
-## 🔒 UNBREAKABLE DOCUMENTATION-FIRST RULE
-
-**CRITICAL**: Before creating brownfield stories for existing codebases, you MUST ALWAYS start with docs/index.md to identify relevant documentation, navigate to specific documentation sections, process and understand the existing system architecture, current implementation patterns, technical debt, and constraints, and apply that knowledge to create stories that work within the reality of the existing system.
-
 ## Purpose
 
 Create detailed, implementation-ready stories for brownfield projects where traditional sharded PRD/architecture documents may not exist. This task bridges the gap between various documentation formats (document-project output, brownfield PRDs, epics, or user documentation) and executable stories for the Dev agent.
+
+## 🔒 UNBREAKABLE DOCUMENTATION-FIRST RULE
+
+**CRITICAL**: Before creating brownfield epics for existing systems, you MUST ALWAYS start with docs/index.md to identify relevant documentation, navigate to specific documentation sections, understand the complete system architecture, existing capabilities, technical constraints, and implementation patterns, and apply that knowledge to create epics that align with system realities and leverage existing infrastructure
 
 ## When to Use This Task
 

@@ -1,5 +1,9 @@
 # Create Document from Template (YAML Driven)
 
+## 🔒 UNBREAKABLE DOCUMENTATION-FIRST RULE
+
+**CRITICAL**: Before creating brownfield epics for existing systems, you MUST ALWAYS start with docs/index.md to identify relevant documentation, navigate to specific documentation sections, understand the complete system architecture, existing capabilities, technical constraints, and implementation patterns, and apply that knowledge to create epics that align with system realities and leverage existing infrastructure
+
 ## ⚠️ CRITICAL EXECUTION NOTICE ⚠️
 
 **THIS IS AN EXECUTABLE WORKFLOW - NOT REFERENCE MATERIAL**

@@ -4,6 +4,10 @@
 
 To comprehensively validate a story draft before implementation begins, ensuring it is complete, accurate, and provides sufficient context for successful development. This task identifies issues and gaps that need to be addressed, preventing hallucinations and ensuring implementation readiness.
 
+## 🔒 UNBREAKABLE DOCUMENTATION-FIRST RULE
+
+**CRITICAL**: Before creating brownfield epics for existing systems, you MUST ALWAYS start with docs/index.md to identify relevant documentation, navigate to specific documentation sections, understand the complete system architecture, existing capabilities, technical constraints, and implementation patterns, and apply that knowledge to create epics that align with system realities and leverage existing infrastructure
+
 ## SEQUENTIAL Task Execution (Do not proceed until current Task is complete)
 
 ### 0. Load Core Configuration and Inputs

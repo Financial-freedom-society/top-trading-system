@@ -1,12 +1,12 @@
 # Create Next Story Task
 
-## 🔒 UNBREAKABLE DOCUMENTATION-FIRST RULE
-
-**CRITICAL**: Before creating development stories that involve codebase modifications, system enhancements, or technical implementation, you MUST ALWAYS start with docs/index.md to identify relevant documentation, navigate to specific documentation sections, process and understand existing system architecture, patterns, and constraints, and apply that knowledge to create stories that align with established system design and capabilities.
-
 ## Purpose
 
 To identify the next logical story based on project progress and epic definitions, and then to prepare a comprehensive, self-contained, and actionable story file using the `Story Template`. This task ensures the story is enriched with all necessary technical context, requirements, and acceptance criteria, making it ready for efficient implementation by a Developer Agent with minimal need for additional research or finding its own context.
+
+## 🔒 UNBREAKABLE DOCUMENTATION-FIRST RULE
+
+**CRITICAL**: Before creating brownfield epics for existing systems, you MUST ALWAYS start with docs/index.md to identify relevant documentation, navigate to specific documentation sections, understand the complete system architecture, existing capabilities, technical constraints, and implementation patterns, and apply that knowledge to create epics that align with system realities and leverage existing infrastructure
 
 ## SEQUENTIAL Task Execution (Do not proceed until current Task is complete)
 

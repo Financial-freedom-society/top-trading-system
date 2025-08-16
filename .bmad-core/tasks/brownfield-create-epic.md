@@ -1,12 +1,13 @@
 # Create Brownfield Epic Task
 
+## Purpose
+
+Create a single epic for smaller brownfield enhancements that don't require the full PRD and Architecture documentation process. This task is for isolated features or modifications that can be completed within a focused scope.
+
 ## 🔒 UNBREAKABLE DOCUMENTATION-FIRST RULE
 
 **CRITICAL**: Before creating brownfield epics for existing systems, you MUST ALWAYS start with docs/index.md to identify relevant documentation, navigate to specific documentation sections, understand the complete system architecture, existing capabilities, technical constraints, and implementation patterns, and apply that knowledge to create epics that align with system realities and leverage existing infrastructure.
 
-## Purpose
-
-Create a single epic for smaller brownfield enhancements that don't require the full PRD and Architecture documentation process. This task is for isolated features or modifications that can be completed within a focused scope.
 
 ## When to Use This Task
 

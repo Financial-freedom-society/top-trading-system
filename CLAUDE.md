@@ -8,7 +8,7 @@ This is NautilusTrader, a high-performance algorithmic trading platform and even
 
 ## 🎯 PRIMARY DOCUMENTATION REFERENCE
 
-**🔒 UNBREAKABLE RULE**: Before working on ANY component or task in this repository, you MUST ALWAYS start with the comprehensive documentation index. This rule is enforced in `.claude/documentation-first-rule.md` and `.bmad-core/core-config.yaml`.
+**🔒 UNBREAKABLE RULE**: Before working on ANY component or task in this repository, you MUST ALWAYS start with the comprehensive documentation index. This rule is enforced in `docs/data/documentation-first-rule.md` and `.bmad-core/core-config.yaml`.
 
 ### [`docs/index.md`](docs/index.md) - Your Essential Navigation Hub
 

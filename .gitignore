@@ -6,9 +6,6 @@
 *.lib
 *.xml
 
-# BMAD Core directories
-.bmad-core/
-
 # Git
 *.diff
 

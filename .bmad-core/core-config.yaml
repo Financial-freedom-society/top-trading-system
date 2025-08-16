@@ -15,9 +15,7 @@ devLoadAlwaysFiles:
   - docs/architecture/coding-standards.md
   - docs/architecture/tech-stack.md
   - docs/architecture/source-tree.md
-  - CURSOR.md
-  - .cursor/rules/documentation-first-rule.md
-  - docs/index.md
+  - docs/data/documentation-first-rule.md
 devDebugLog: .ai/debug-log.md
 devStoryLocation: docs/stories
 slashPrefix: BMad

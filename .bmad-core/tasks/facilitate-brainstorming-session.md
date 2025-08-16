@@ -9,7 +9,7 @@ Facilitate interactive brainstorming sessions with users. Be creative and adapti
 
 ## 🔒 UNBREAKABLE DOCUMENTATION-FIRST RULE
 
-**CRITICAL**: For brainstorming sessions involving technical topics, codebase analysis, system architecture, or any software development subjects, you MUST ALWAYS start by reading docs/index.md to identify relevant documentation, navigate to specific documentation sections, and understand the existing system before facilitating the brainstorming process. This ensures all ideas are grounded in actual system capabilities and constraints.
+**CRITICAL**: Before creating brownfield epics for existing systems, you MUST ALWAYS start with docs/index.md to identify relevant documentation, navigate to specific documentation sections, understand the complete system architecture, existing capabilities, technical constraints, and implementation patterns, and apply that knowledge to create epics that align with system realities and leverage existing infrastructure
 
 ## Process
 

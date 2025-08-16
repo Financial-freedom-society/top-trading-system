@@ -1,10 +1,10 @@
 # review-story
 
+When a developer agent marks a story as "Ready for Review", perform a comprehensive senior developer code review with the ability to refactor and improve code directly.
+
 ## 🔒 UNBREAKABLE DOCUMENTATION-FIRST RULE
 
-**CRITICAL**: Before reviewing stories that involve codebase changes or technical implementation, you MUST ALWAYS start with docs/index.md to identify relevant documentation, navigate to specific documentation sections, understand existing system patterns and constraints, and validate that story requirements align with documented system architecture and capabilities.
-
-When a developer agent marks a story as "Ready for Review", perform a comprehensive senior developer code review with the ability to refactor and improve code directly.
+**CRITICAL**: Before creating brownfield epics for existing systems, you MUST ALWAYS start with docs/index.md to identify relevant documentation, navigate to specific documentation sections, understand the complete system architecture, existing capabilities, technical constraints, and implementation patterns, and apply that knowledge to create epics that align with system realities and leverage existing infrastructure
 
 ## Prerequisites
 

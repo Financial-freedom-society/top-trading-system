@@ -1,12 +1,12 @@
 # Document an Existing Project
 
-## 🔒 UNBREAKABLE DOCUMENTATION-FIRST RULE
-
-**CRITICAL**: This task enforces the 🔒 UNBREAKABLE DOCUMENTATION-FIRST RULE by systematically analyzing existing documentation before creating new documentation, ensuring comprehensive understanding of the current system state.
-
 ## Purpose
 
 Generate comprehensive documentation for existing projects optimized for AI development agents. This task creates structured reference materials that enable AI agents to understand project context, conventions, and patterns for effective contribution to any codebase.
+
+## 🔒 UNBREAKABLE DOCUMENTATION-FIRST RULE
+
+**CRITICAL**: Before creating brownfield epics for existing systems, you MUST ALWAYS start with docs/index.md to identify relevant documentation, navigate to specific documentation sections, understand the complete system architecture, existing capabilities, technical constraints, and implementation patterns, and apply that knowledge to create epics that align with system realities and leverage existing infrastructure
 
 ## Task Instructions
 
